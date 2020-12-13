@@ -23,7 +23,7 @@ const Tab = ({ href, icon, children }) => {
 };
 
 const Sidebar = () => (
-  <div className="absolute top-0 left-0 h-80 flex flex-col overflow-y-scroll w-48">
+  <div className="absolute top-0 left-0 h-64 flex flex-col overflow-y-scroll w-48">
     <Tab href="/" icon={<Home size="22" />}>
       Home
     </Tab>
