@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-persistent-layouts",
+  "name": "nextjs-dynamic-layout",
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
