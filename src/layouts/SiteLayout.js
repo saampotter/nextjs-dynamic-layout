@@ -19,6 +19,4 @@ const SiteLayout = ({ children }) => (
   </div>
 );
 
-export const getLayout = ({ children }) => <SiteLayout>{children}</SiteLayout>;
-
 export default SiteLayout;
