@@ -10,7 +10,8 @@ const IndexPage = () => (
     <p>You will notice how the scroll position of the sidebar is preserved.</p>
     <p>
       This is because this page, and the settings page we are navigating to, are
-      encapsulated within the AppLayout component.
+      encapsulated within the AppLayout component using our getLayout function
+      property.
     </p>
   </div>
 );

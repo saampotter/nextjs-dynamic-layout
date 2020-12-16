@@ -11,13 +11,13 @@ const Login = () => {
 
   return (
     <div className="flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-sm w-full space-y-8">
-        <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
+      <div className="max-w-md w-full space-y-4 text-center">
+        <h2 className="mt-6 text-3xl font-extrabold text-gray-900">
           Login Page
         </h2>
-        <p className="text-center">
-          This page is only wrapped within our main SiteLayout.
-        </p>
+        <p>This page is only wrapped within our main SiteLayout.</p>
+        <p>Before you login, type a query into the search bar up the top.</p>
+        <p>You'll notice your query persists between page transitions.</p>
         <button
           type="submit"
           onClick={handleClick}
